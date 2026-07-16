@@ -15,12 +15,14 @@ django-admin startproject backend
 django-admin --version
 
 ### ------ Starting Project Setup ------
-
+```
 1. django-admin startproject first_django_project
-
+```
 ##### Run
-
+```
 2. python manage.py runserver
+```
+
 3. d
 4. df
 5. df
