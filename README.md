@@ -23,7 +23,26 @@ django-admin --version
 2. python manage.py runserver
 ```
 
-3. d
-4. df
-5. df
-6. df
+```
+1. 
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
