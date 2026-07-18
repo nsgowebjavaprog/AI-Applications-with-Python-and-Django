@@ -52,7 +52,7 @@ uv pip install 'django-tailwind[reload]'
 '''
 
 '''
-
+python -m pip install --upgrade pip
 '''
 
 '''
