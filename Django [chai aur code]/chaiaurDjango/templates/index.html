@@ -1,19 +1,9 @@
-{% load static %}
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Django Coder</title>
+{% extends "layout.html" %}
 
-    {% comment %} CSS
-    <link rel="stylesheet" href="../static/style.css" />
-    {% endcomment %}
+{% block title %}
+Home page
+{% endblock %}
 
-    <link rel="stylesheet" href="{% static 'style.css' %}" />
-  </head>
-
-  <body>
-    <h1>Hello, Welcome to All!</h1>
-  </body>
-</html>
+{% block content %}
+<h1>Chai Code | Home page</h1>
+{% endblock %}
