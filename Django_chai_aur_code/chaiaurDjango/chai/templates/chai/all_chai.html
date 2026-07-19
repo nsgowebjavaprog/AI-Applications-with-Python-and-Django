@@ -1,0 +1,12 @@
+{% extends "layout.html" %} {% block title %} chai Page {% endblock %} {%block
+content %}
+<h1>All Chai For You</h1>
+{% endblock %} {% for chai in chais %}
+
+<div class="chai-item">
+  <img scr="{{chai.image.url}}" alt="" />
+  <h3>{{chai.name}}</h3>
+  Test
+</div>
+
+{% endfor %}

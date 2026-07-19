@@ -49,27 +49,30 @@ python -m pip install --upgrade pip
 '''
 
 '''
+python -m pip install Pillow
+'''
 
+### after creating models
+'''
+python manage.py makemigrations chai
 '''
 
 '''
+python manage.py migrate
+'''
 
+#### Password and Username
+
+'''
+python manage.py changepassword <name>
 '''
 
 '''
-
+python manage.py makemigrations
 '''
 
 '''
-
-'''
-
-'''
-
-'''
-
-'''
-
+python manage.py migrate
 '''
 
 '''

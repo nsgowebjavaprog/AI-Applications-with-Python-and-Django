@@ -1,6 +1,8 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 # import views file
+from django.conf import settings
+from django.conf.urls.static import static
 from . import views
 
 
@@ -8,6 +10,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # By cdoer
     path('', views.home, name='home'),
-    # path('about/', views.about, name='about'),  # http://127.0.0.1:8000/about/
-    # path('contact/', views.contact, name='contact'),
-]
+    
+    path("__reload__/", include("django_browser_reload.urls"))
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
