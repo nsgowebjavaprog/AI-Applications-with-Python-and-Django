@@ -1,18 +1,11 @@
+### Env sertup
+
 '''
-pip install uv 
+python -m venv enviromn
 '''
 
 '''
-uv venv
-'''
-
-'''
-.venv\Scripts\activate
-'''
-#### or
-
-'''
-.\.venv\Scripts\activate.bat
+.\enviromn\Scripts\Activate.ps1
 '''
 
 '''
